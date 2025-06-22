@@ -382,6 +382,15 @@
         <jsp-file>/self-registration.jsp</jsp-file>
     </servlet>
 
+    <servlet>
+        <servlet-name>password_recovery.do</servlet-name>
+        <jsp-file>/password-recovery.jsp</jsp-file>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>password_recovery.do</servlet-name>
+        <url-pattern>/password_recovery.do</url-pattern>
+    </servlet-mapping>
     <servlet-mapping>
         <servlet-name>totp_enroll.do</servlet-name>
         <url-pattern>/totp_enroll.do</url-pattern>
